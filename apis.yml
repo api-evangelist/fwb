@@ -1,7 +1,14 @@
 aid: fwb
 name: Fwb
-description: Fwb is a company surfaced as a portfolio company of kindred-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Friends With Benefits (FWB) is a Web3 cultural community and member-owned
+  organization that blends online culture, IRL events, and token-gated membership. It
+  operates the $FWB token, publishes an editorial arm, runs member governance, and
+  produces gatherings such as FWB FEST (its annual festival in Idyllwild, CA) alongside
+  builder programs like World Build Labs. Surfaced as a portfolio company of Kindred
+  Ventures and added to the API Evangelist network. At the time of enrichment FWB
+  publishes no public API, developer portal, SDK, or machine-readable developer
+  surface — this profile captures its public identity and member-facing web
+  properties.
 url: https://raw.githubusercontent.com/api-evangelist/fwb/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - kindred-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/r5wb1grj/production/90e19c8fe89113f24b89172b44abe0b49f6dba44-1200x701.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Web3
+- Community
+- DAO
+- Membership
+- Events
+- Culture
+- Governance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://fwb.help/
+- type: SignUp
+  url: https://fwb.help/membership
+- type: Blog
+  url: https://fwb.help/editorial
+- type: Governance
+  url: https://fwb.help/governance
+- type: Events
+  url: https://fwb.help/events
+- type: About
+  url: https://fwb.help/about
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
