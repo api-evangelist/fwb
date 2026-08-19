@@ -28,7 +28,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.sanity.io/images/r5wb1grj/production/90e19c8fe89113f24b89172b44abe0b49f6dba44-1200x701.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
